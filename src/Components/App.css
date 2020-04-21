@@ -1,0 +1,15 @@
+
+.NavBar {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  background-color: #1DA1F2;
+}
+
+.NavItem {
+  padding: 16px;
+  display: inline;
+  float: right;
+  
+
+}
