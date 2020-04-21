@@ -3,16 +3,16 @@ import NavItem from './NavItem/NavItem';
 
 const menu = [
   {
-    text: "Home"
-  },
-  {
-    text: "About Us"
+    text: "Partners"
   },
   {
     text: "Products"
   },
   {
-    text: "Partners"
+    text: "About Us"
+  },
+  {
+    text: "Home"
   }
 ];
 
@@ -29,10 +29,6 @@ const NavBar = () => {
       </div>
 
       <div>
-        {/* <NavItem text={"Home"} />
-        <NavItem text={"About Us"} />
-        <NavItem text={"Products"} />
-        <NavItem text={"Partners"} /> */}
         <ul className="NavLinks">
         {menu.map((navItem, index) => 
         
@@ -41,6 +37,10 @@ const NavBar = () => {
             key={index} />
           )}
         </ul>
+      </div>
+
+      <div class="USDALogo">
+        <img src="https://i.imgur.com/Z3tA9Tg.png" alt="USDALogo"></img>
       </div>
 
     </div>

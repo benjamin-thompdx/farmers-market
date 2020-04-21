@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const NavItem = props => {
   return (
     <div className="NavItem">
-      <a href="#">{props.text}</a>
+      <a href="test">{props.text}</a>
     </div>
   )
 }
